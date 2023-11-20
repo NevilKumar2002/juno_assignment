@@ -1,0 +1,116 @@
+.monitoring-div{
+    display: flex;
+    /* margin-left: 22vw; */
+    flex-direction: column;
+    /* align-items: ; */
+    position:relative;
+    top:0 !important;
+    /* border:2px solid red; */
+    width:80%;
+    height:100vh;
+}
+.heading{
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing as needed */
+    /* background-color: rgb(220, 133, 133); */
+  }
+.risk-level{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* color:rgb(230, 110, 110) */
+}
+
+.close-account-btn{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 203, 203);
+    color:red;
+    gap:10px;
+    justify-content: center;
+    margin-left: 40vw;
+    width:18vw !important;
+    height:7vh !important;
+    border-radius: 10px;
+}
+button{
+    height:6vh;
+}
+
+.status-div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border:2px solid red; */
+   height:10vh;
+    justify-content: space-between;
+    box-shadow: 0px 1px 1px rgba(0,0,0);
+
+}
+.pending-completed-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:40px;
+    margin-left: 5rem;
+}
+.pending-completed-div button{
+    /* border:none; */
+    /* background-color:none !important; */
+}
+.search-container{
+    /* border:2px solid red; */
+}
+/* .action-column{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    height:9vh !important;
+    
+    
+} */
+tr{
+    text-align: center;
+}
+table{
+    width:75vw;
+    margin:1.5rem 1rem;
+    /* border:2px solid red; */
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 4px white;
+
+}
+tr, td, th, .action-column{
+    border:1px solid black !important;
+    height:7vh;
+}
+tr, td{
+    height:7vh !important;
+    /* border:2px solid red !important; */
+}
+
+th, td{
+    height:7vh;
+}
+thead{
+    background-color: rgb(238, 235, 235);
+}
+tr:hover{
+    background-color: rgb(235, 228, 228);
+}
+.share-icon{
+    transform: rotate(90deg);
+    color:rgb(125, 125, 230);
+}
+.underlined{
+    /* text-decoration: underline 0.2rem  blue !important; */
+    border:2px solid blue;
+  
+    /* margin-top: 1rem; */
+    /* color:blue; */
+}

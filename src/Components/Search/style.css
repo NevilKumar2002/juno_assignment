@@ -1,0 +1,32 @@
+.search-input-div{
+   display:flex;
+   border:2px solid black;
+   width:20vw;
+   margin-left: 5vw;
+}
+input{
+    border:none;
+    outline:none;
+}
+.search-icon{
+    width:10px;
+    height:10px;
+    margin-right: 10px;
+}
+.search-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    margin-top:20px;
+    /* border:2px solid red; */
+}
+select{
+    height:30px;
+}
+@media only screen and (max-width:800px){
+    .search-input-div{
+        width:20vw;
+        /* border:2px solid red; */
+        margin-right: 20px;
+    }
+}

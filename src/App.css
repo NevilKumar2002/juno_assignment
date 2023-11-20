@@ -1,0 +1,9 @@
+.mask-image
+{
+  border-radius: 50%;
+  /* border:2px solid red */
+}
+.container{
+  display: flex !important;
+  
+}
